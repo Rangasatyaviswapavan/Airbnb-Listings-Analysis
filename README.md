@@ -3,12 +3,11 @@
 ## Overview
 The Airbnb Data Science Project aims to gather insights and develop predictive models for Airbnb listings using web scraping techniques and machine learning algorithms. By extracting data from Airbnb's website, we collect information about listing characteristics, such as prices, amenities, and ratings. This data is then cleaned, explored, and used to train a machine learning model that can predict listing prices based on various features.
 
-## Motivation
 The motivation behind this project is to provide valuable insights and tools for both hosts and guests in the Airbnb community. For hosts, understanding the factors influencing listing prices can help optimize their offerings and attract more guests. For guests, having accurate price predictions can assist in planning trips and finding accommodations that meet their budget and preferences.
 
 ## Methodology
 
-1. **Web Scraping**: We utilize web scraping techniques to extract data from Airbnb listings. This involves scraping information from both search pages, which provide summary information about multiple listings, and detail pages, which offer more detailed information about individual listings. We web scraped data to extract information from over 76,000 listings leveraging BeautifulSoup in Python.
+1. **Web Scraping**: We utilize web scraping techniques to extract data from Airbnb listings. This involves scraping information from both search pages, which provide summary information about multiple listings, and detail pages, which offer more detailed information about individual listings. We web scraped data to extract information from over 76,000 listings leveraging BeautifulSoup in Python. BeautifulSoup is primarily used for parsing and extracting data from static search pages, where the content is readily available in the HTML source. On the other hand, Selenium is employed for interacting with dynamic detail pages, where certain elements are loaded dynamically via JavaScript.
 
 2. **Data Cleaning and Preprocessing**: The scraped data is cleaned and preprocessed to handle missing values, remove redundant information, and engineer new features. This step ensures that the data is suitable for analysis and modeling.
 
